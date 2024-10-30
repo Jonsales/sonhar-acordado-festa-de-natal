@@ -1,7 +1,15 @@
 body {
    font-family: Arial, sans-serif;
-   background-color: #ebebeb;
+   background-color: #ffebdd;
 }
+
+.cover-image {
+   background-image: url('./assets/capa.jpg');
+   height: 300px; /* Ajuste a altura conforme necessário */
+   background-size: cover;
+   background-position: center;
+}
+
 
 .container {
    background-color: white;
@@ -20,8 +28,8 @@ p, li {
 }
 
 footer {
-   font-size: 0.9rem;
-   color: #555;
+   background-color: white;
+   font-size: 0.8rem;
 }
 
 .title {
